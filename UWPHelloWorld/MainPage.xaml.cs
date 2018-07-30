@@ -27,7 +27,7 @@ namespace UWPHelloWorld
             this.InitializeComponent();
         }
 
-        private async void HelloSpeach(object sender, RoutedEventArgs e)
+        private async void HelloSpeech(object sender, RoutedEventArgs e)
         {
             MediaElement mediaElement = new MediaElement();
             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
